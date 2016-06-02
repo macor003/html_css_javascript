@@ -3,10 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+
   </head>
   <body onload="do_game();">
-    <script src="juego1.js"></script>
-    <input type="button" name="name" value="">
-
+    <script src="js/juego1.js"></script>
   </body>
 </html>
