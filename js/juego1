@@ -35,4 +35,6 @@ function check_guess(){
     alert("Your number is too small!");
     return false;
   }
+  alert("You got it! the number was "+target+".\n\nIt took you "+guesses+" guesses to get the number!");
+  return true;
 }
