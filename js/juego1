@@ -4,7 +4,7 @@ var guess_input;
 var finished = false;
 var guesses = 0;
 
-function do_game(){
+function do_game (){
   var random_number = Math.random() * 100;
   var random_number_integer = Math.floor(random_number);
   target = random_number_integer + 1;
@@ -18,7 +18,7 @@ function do_game(){
   }
 }
 
-function check_guess(){
+function check_guess (){
   if (isNaN(guess_input)) {
     alert("You have not entered a number. \n\n Please enter a number in the range 1 to 100.");
     return false;
