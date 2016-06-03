@@ -5,7 +5,7 @@
     <title>do Game</title>
 
   </head>
-  <body onload="do_game();">
-    <script src="js/juego1.js"></script>
+  <body onload="do_game()">
+    <script src="js/juego1"></script>
   </body>
 </html>
