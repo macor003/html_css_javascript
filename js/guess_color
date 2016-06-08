@@ -1,1 +1,10 @@
 var target;
+
+
+function do_game(){
+  var edad;
+  edad = prompt("Que edad tienes?")
+
+  alert("Que bien tienes "+edad+ " año(s) de edad.");
+
+}

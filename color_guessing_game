@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Adivina el color</title>
   </head>
-  <body>
-
+  <body onload="do_game()">
+    <script src="js/guess_color"></script>
   </body>
 </html>
