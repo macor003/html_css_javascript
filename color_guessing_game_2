@@ -66,7 +66,7 @@
       return false;
     }
     document.body.style.background=guess_input_text;
-    alert(guess_input + "Congratulations! You have guessed the color! \n\n It took you " + guesses + " guesses to finish the game! \n\n You can see the colour in the background");
+    alert("Congratulations! You have guessed the color! \n\n It took you " + guesses + " guesses to finish the game! \n\n You can see the colour in the background");
     return true;
   }
 

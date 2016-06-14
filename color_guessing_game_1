@@ -53,20 +53,17 @@
   }
 
   function check_guess(){
-    if (guess_input > 8) {
-      alert("Sorry, I don't recognize your color \n\n Please try again.");
+    if (guess_input > 8) {      
       return false;
     }
     if (guess_input > target_index) {
-      alert("Sorry, your guess is not correct! \n\n Hint: your color is alphabetically higher than mine. \n\n Please try again");
       return false;
     }
     if (guess_input < target_index) {
-      alert("Sorry, your guess is not correct! \n\n Hint: your color is alphabetically lower than mine. \n\n Please try again");
       return false;
     }
     document.body.style.background=guess_input_text;
-    alert(guess_input + "Congratulations! You have guessed the color! \n\n It took you " + guesses + " guesses to finish the game! \n\n You can see the colour in the background");
+    alert("Congratulations!");
     return true;
   }
 
