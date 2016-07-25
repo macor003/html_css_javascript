@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <title>Matching Game</title>
     <style media="screen">
+      img{
+        position: absolute;       
+      }
       div{
         position: absolute;
         width: 500px;
