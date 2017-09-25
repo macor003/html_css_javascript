@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="0.1">
+    <title>Color DOM</title>
+    <script type="text/javascript">
+         function show_pattern(){
+           var top = 25, left = 25;
+           var width = 500, height = 500;
+           var color_list = ["red","orange","yellow","green","blue","indigo","violet","gold","olive","teal","sienna","pink","cyan","red"];
+           var the_body = document.getElementById("theBody");
+
+           while(width > 50){
+              var this_div = document.createElement("div");
+              var random_color = Math.random() * 14;
+              random_color = Math.floor(random_color);
+              this_div.style.top = top +"px";
+              this_div.style.left = left +"px";
+              this_div.style.width = width +"px";
+              this_div.style.height = height +"px";
+              this_div.style.background = color_list[random_color];
+              the_body.appendChild(this_div);
+              top+=10;
+              left+=10;
+              width-=20;
+              height-=20;
+
+           }
+         }
+
+    </script>
+    <style media="screen">
+      div{
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body id="theBody" onload="show_pattern()">
+
+  </body>
+</html>
